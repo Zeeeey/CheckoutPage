@@ -1,0 +1,81 @@
+body {
+  /* background-color: red; */
+  height: 100%;
+  background-image: cross-fade();
+}
+
+.navigationBar{
+  width: 100%;
+  margin-top: 20px;
+  /* background-color: blue;
+  height: 50px; */
+}
+.navbar_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.margin_top_20{
+  margin-top: 20px;
+}
+
+.fontDesign{
+  font-size: 14px;
+  font-family: 'Rubik';
+  color: gray;
+}
+
+.margin_left_10{
+  margin-left: 10px;
+}
+
+.margin_left_20{
+  margin-left: 20px;
+}
+
+#grad{
+  height: 200px;
+  width: 400px;
+  background-image: linear-gradient(to bottom left, #7661ae, #ba5a68);
+}
+
+.payText_2{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.cardText{
+  display: flex;
+  justify-content: center;
+}
+
+.cardText_text{
+  display: flex;
+  flex-direction: column;
+}
+
+.cardText_white{
+  color: white;
+}
+
+.mastercard_style{
+  height: 15px;
+  width: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
