@@ -32,9 +32,13 @@ body {
 .margin_left_10{
   margin-left: 10px;
 }
+.margin_left_121{
+  margin-left: 121px;
+}
 
 .margin_left_20{
   margin-left: 20px;
+  width: 100%;
 }
 
 .margin_left_20{
@@ -83,6 +87,10 @@ body {
 .box-cover{
   padding: 10px;
 }
+ 
+.cardText_font{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
 
 .chip_size{
   height: 25px;
@@ -109,14 +117,18 @@ body {
 .cardText_text{
   display: flex;
   flex-direction: column;
+ 
 }
 
 .cardText_white{
   color: white;
-  font-family: Verdana;
+  font-family: monospace;
   font-size: 12px;
 }
 
+.margin_top_5{
+  margin-top: 7px;
+}
 .cardText_icon_wifi{
   display: flex;
   justify-content: center;
@@ -126,11 +138,16 @@ body {
 .mastercard_style{
   height: 15px;
   width: 15px;
+            margin-top: 149px;
 }
 
 .payOnline{
   display: flex;
   justify-content: space-around;
+}
+
+.margin_chip{
+  margin: 7px;
 }
 
 .visa_size{
