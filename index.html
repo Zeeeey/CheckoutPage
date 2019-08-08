@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Hello, world!</title>
 </head>
 
@@ -39,33 +40,100 @@
     <hr>
 
     <div class="row">
-      <div class="col-sm-4 col-md-6 col-lg-5 col-xl-3">
-
+      <div class="col-sm-12 col-md-6 col-lg-5 ">
         <div class="payText">
-            <span class="payText_1">Payment Information</span>
-            <span class="payText_2">Choose your method of payment</span>  
+          <span class="payText_1">Payment Information</span>
+          <span class="payText_2">Choose your method of payment</span>
         </div>
 
         <div class="cardText" id="grad">
           <div class="cardText_icon">
-              <img src="mastercard.png" alt="" class="mastercard_style">
+            <i class="fa fa-wifi cardText_icon_wifi"></i>
+
           </div>
-          <div class="cardText_text margin_left_20">
-          <span class="cardText_white">CARD NUMBER</span>
-          <span class="cardText_white">4832 5433 9382 1030</span>
-          <span class="cardText_white">EXPIRATION DATE</span>
-          <span class="cardText_white">03/24</span>
-          <span class="cardText_white">John Doe</span>
-        </div>
+          <div class="cardText_text margin_top_20 margin_left_5">
+            <span class="cardText_white">CARD NUMBER</span>
+            <span class="cardText_white">4832 5433 9382 1030</span>
+            <img src="atmChip.png" alt="" class="chip_size">
+            <span class="cardText_white">EXPIRATION DATE</span>
+            <span class="cardText_white">03/24</span>
+            <span class="cardText_white">John Doe</span>
+          </div>
         </div>
 
       </div>
-      <div class="col-sm-8 col-md-6 col-lg-7 col-xl-9">mkmk</div>
+      <div class="row col-sm-12 col-md-6 col-lg-7">
+        <div class="payOnline margin_left_20">
+          <img src="VISA.svg" alt="" class="visa_size">
+          <img src="discover.svg" alt="" class="discover_size">
+          <img src="PAYPAL.svg" alt="" class="paypal_size">
+        </div>
+
+        <br>
+        <div class="card_details1">
+          <div class="form-group">
+            <label for="credit_card">Credit card number</label>
+            <input type="text" class="form-control" id="credit_cardID">
+          </div>
+          <div class="form-group">
+            <label for="exp_date">Expiration date</label>
+            <input type="text" placeholder="dd/mm/yyyy" class="form-control" id="exp_dateID">
+          </div>
+        </div>
+
+        <div class="card_details1">
+          <div class="form-group">
+            <label for="security">Security</label>
+            <input type="text" class="form-control" id="securityID">
+          </div>
+          <div class="form-group">
+            <label for="postal_code">Postal code</label>
+            <input type="text" class="form-control" id="postal_codeID">
+          </div>
+        </div>
+
+
+        <div class="radio margin_left_150">
+          <label><input type="radio" name="optradio">
+            Use this card for next time purchase
+          </label>
+        </div>
+
+        <button type="button" class="btn btn-info addCart">Add Card</button>
+      </div>
+
     </div>
 
 
+    <hr>
 
-    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+      <div class="row margin_right_40">
+        <div class="col-lg-4 col-md-4 box-cover">
+          <div class="box summary_text">
+            <p class="strong_text">Subtotal</p>
+            <p class="strong_text">Estimated TAX</p>
+            <p class="strong_text">Promotional Code: Z4KXLM9A</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 box-cover">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-4 col-md-4 box-cover">
+          <div class="box naira">
+            <p class="strong_text">₦2,937.00</p>
+            <p class="strong_text">₦119.64</p>
+            <p class="strong_text">₦-60.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <hr>
+    <button type="button" class="btn btn-info">Add Card</button>
+
+
   </div>
 
   <!-- Optional JavaScript -->

@@ -25,6 +25,10 @@ body {
   color: gray;
 }
 
+.margin_left_5{
+  margin-left: 5px
+}
+
 .margin_left_10{
   margin-left: 10px;
 }
@@ -33,9 +37,60 @@ body {
   margin-left: 20px;
 }
 
+.margin_left_20{
+  margin-left: 20%;
+}
+
+.margin_left_40{
+  margin-left: 40px;
+}
+
+
+.margin_right_20{
+  margin-right: 20px;
+}
+
+.margin_left_150{
+  margin-left: 150px;
+}
+
+.addCart{
+  margin-left: 150px;
+  width: 200px;
+}
+
+.fa-wifi{
+  transform: rotate(90deg);
+  color: white;
+}
+
+.form-group{
+  margin: 5px;
+}
+
+.naira{
+  text-align: end;
+}
+
+
+.box{
+  /* background: red; */
+  height: 120px;
+  width: 100%;
+  /* box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2); */
+}
+
+.box-cover{
+  padding: 10px;
+}
+
+.chip_size{
+  height: 25px;
+  width: 25px;
+}
 #grad{
   height: 200px;
-  width: 400px;
+  width: 100%;
   background-image: linear-gradient(to bottom left, #7661ae, #ba5a68);
 }
 
@@ -48,7 +103,7 @@ body {
 
 .cardText{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .cardText_text{
@@ -58,6 +113,14 @@ body {
 
 .cardText_white{
   color: white;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.cardText_icon_wifi{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .mastercard_style{
@@ -65,9 +128,40 @@ body {
   width: 15px;
 }
 
+.payOnline{
+  display: flex;
+  justify-content: space-around;
+}
 
+.visa_size{
+  height: 40px;
+  
+}
 
+.discover_size{
+  height: 40px;
+  
+}
 
+.paypal_size{
+  height: 5px;
+
+  
+}
+
+.strong_text{
+  font-weight: bold;
+}
+.card_details1{
+  display: flex;
+  margin-left: 150px;
+}
+
+@media(max-width: 570px){
+  .card_details1{
+    margin-left: 50px;
+  }
+}
 
 
 
