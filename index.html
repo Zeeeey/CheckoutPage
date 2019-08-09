@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
+  <!-- favicon -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Checkout</title>
 </head>
@@ -53,15 +55,17 @@
           </div>
           <div class="cardText_text margin_top_20 margin_left_5">
             <span class="cardText_white cardText_font ">CARD NUMBER</span>
-            <span class="cardText_white ">4832 5433 9382 1030</span>
+            <span class="cardText_white" id="display_credit_card">4832 5433 9382 1030</span>
             <img src="atmChip.png" alt="" class="chip_size margin_chip">
-            <span class="cardText_white">EXPIRATION DATE</span>
+            <span class="cardText_white" >EXPIRATION DATE</span>
             <span class="cardText_white">03/24</span>
             <span class="cardText_white margin_top_5">John</span>
             <span class="cardText_white">Doe</span>
+            <div id="displayID" style="color: rgb(27, 31, 22)">
+            </div>
           </div>
 
-          <div class="margin_left_121">
+          <div class="margin_right_40">
             <img src="mastercardlogo.svg" alt="" class="mastercard_style">
           </div>
         </div>
@@ -73,23 +77,22 @@
           <img src="discover.svg" alt="" class="discover_size">
           <img src="PAYPAL.svg" alt="" class="paypal_size">
         </div>
-
         <br>
         <div class="card_details1">
           <div class="form-group">
             <label for="credit_card">Credit card number</label>
-            <input type="text" class="form-control" id="credit_cardID">
+            <input type="text" class="form-control" placeholder="Input Your Card Number" id="credit_cardID">
           </div>
           <div class="form-group">
             <label for="exp_date">Expiration date</label>
-            <input type="text" placeholder="dd/mm/yyyy" class="form-control" id="exp_dateID">
+            <input type="date" class="form-control" id="exp_dateID">
           </div>
         </div>
 
         <div class="card_details1">
           <div class="form-group">
             <label for="security">Security</label>
-            <input type="text" class="form-control" id="securityID">
+            <input type="number" class="form-control" id="securityID">
           </div>
           <div class="form-group">
             <label for="postal_code">Postal code</label>
@@ -104,7 +107,7 @@
           </label>
         </div>
 
-        <button type="button" class="btn btn-info addCart">Add Card</button>
+        <button type="button" class="btn btn-info addCart" onclick="displayPostCode()">Add Card</button>
       </div>
 
     </div>
@@ -152,6 +155,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+  <!--JS Script  -->
+  <script src="script.js"></script>
 </body>
 
 </html>

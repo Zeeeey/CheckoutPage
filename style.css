@@ -32,8 +32,8 @@ body {
 .margin_left_10{
   margin-left: 10px;
 }
-.margin_left_121{
-  margin-left: 121px;
+.margin_right_50{
+  margin-right: 100px;
 }
 
 .margin_left_20{
@@ -136,9 +136,10 @@ body {
 }
 
 .mastercard_style{
-  height: 15px;
-  width: 15px;
-            margin-top: 149px;
+  height: 20px;
+  width: 20px;
+         margin-top: 149px;
+         margin-left: 240px;
 }
 
 .payOnline{
