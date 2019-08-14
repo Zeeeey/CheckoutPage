@@ -24,6 +24,17 @@ body {
   font-family: 'Rubik';
   color: gray;
 }
+/* 
+.cardNumWidth{
+  max-width: 70%;
+} */
+
+.collapsibleNB{
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
 
 .margin_left_5{
   margin-left: 5px
@@ -88,10 +99,10 @@ body {
   width: 100%;
   /* box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2); */
 }
-
+/* 
 .box-cover{
   padding: 10px;
-}
+} */
  
 .cardText_font{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
