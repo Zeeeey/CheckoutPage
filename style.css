@@ -59,8 +59,8 @@ body {
 }
 
 .addCart{
-  margin-left: 150px;
-  width: 200px;
+  
+  width: 100%;
 }
 
 .fa-wifi{
@@ -72,8 +72,13 @@ body {
   margin: 5px;
 }
 
+.payDetails{
+  display: flex;
+  justify-content: space-between;
+}
+
 .naira{
-  text-align: end;
+  text-align: right;
 }
 
 
@@ -98,10 +103,13 @@ body {
 }
 #grad{
   height: 200px;
-  width: 100%;
+  width: 90%;
   background-image: linear-gradient(to bottom left, #7661ae, #ba5a68);
+  border-radius: 5px;
 }
-
+.form_font{
+  font-size: 12px;
+}
 .payText_2{
   display: flex;
   justify-content: flex-start;
@@ -132,14 +140,14 @@ body {
 .cardText_icon_wifi{
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 66px;
 }
 
 .mastercard_style{
   height: 20px;
   width: 20px;
-         margin-top: 149px;
-         margin-left: 200px;
+         /* margin-top: 149px;
+         margin-left: 200px; */
 }
 
 .payOnline{
@@ -147,12 +155,17 @@ body {
   justify-content: space-around;
 }
 
+.newPayment{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
 .margin_chip{
   margin: 7px;
 }
 
 .visa_size{
-  height: 40px;
+  height: 20px;
   
 }
 
